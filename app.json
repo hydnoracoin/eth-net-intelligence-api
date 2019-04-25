@@ -11,13 +11,13 @@
     "env":
     {
       "NODE_ENV"        : "production",
-      "RPC_HOST"        : "localhost",
-      "RPC_PORT"        : "8545",
+      "RPC_HOST"        : "127.0.0.1",
+      "RPC_PORT"        : "8504",
       "LISTENING_PORT"  : "30303",
-      "INSTANCE_NAME"   : "",
+      "INSTANCE_NAME"   : "Geth/wallet_tested",
       "CONTACT_DETAILS" : "",
-      "WS_SERVER"       : "wss://rpc.ethstats.net",
-      "WS_SECRET"       : "see http://forum.ethereum.org/discussion/2112/how-to-add-yourself-to-the-stats-dashboard-its-not-automatic",
+      "WS_SERVER"       : "http://localhost:3000",
+      "WS_SECRET"       : "12345",
       "VERBOSITY"       : 2
     }
   }
